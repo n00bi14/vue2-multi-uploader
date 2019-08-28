@@ -4,7 +4,7 @@
  setting a minimum required number of files to upload.
 
 ### Demo
-See live demo [here](https://abarta.github.io/vue2-multi-uploader/demo/).
+See live demo [here](https://updivision.github.io/vue2-multi-uploader/).
 
 ### Latest
 PostData and other changes contributed by [SergioReis97](https://github.com/SergioReis97) via PR. Thanks!
@@ -20,11 +20,11 @@ Optional `postMeta` prop added so you can include additional metadata that needs
 ### Install
 
 ``` bash
-npm install --save vue2-multi-uploader
+npm i @updivision/vue2-multi-uploader
 ```
 #### ES6
 ```javascript
-    import MultipleFileUploader from 'vue2-multi-uploader'
+    import MultipleFileUploader from '@updivision/vue2-multi-uploader'
     export default {
         ...
         components: {
@@ -124,7 +124,7 @@ Example:
 ---
 The MIT License (MIT)
 
-Copyright (c) 2017 UPDIVISION
+Copyright (c) 2017 Andrei Barta @ UPDIVISION
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
